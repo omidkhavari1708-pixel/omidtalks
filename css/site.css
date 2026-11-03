@@ -80,7 +80,7 @@ html[lang=en] .svc h3{letter-spacing:-.02em}
 
 /* contact */
 .contact{position:relative;min-height:90svh;display:flex;align-items:end;overflow:hidden;padding-bottom:clamp(48px,8vw,96px)}
-.contact>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.contact>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%;opacity:.55}
 .contact::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--ink) 15%,transparent 70%)}
 .contact .in{position:relative;z-index:1}
 .contact h2{font-size:clamp(48px,9vw,140px);line-height:.95;font-weight:800;margin:16px 0 8px}
@@ -139,3 +139,4 @@ details p{color:var(--mute);margin-top:10px;max-width:60ch}
   .head{flex-direction:column;align-items:start}
 }
 @media (max-width:860px){.nav.dark>a{display:inline-flex}.nav.dark{justify-content:space-between}}
+@media (min-width:861px){.contact{display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(32px,6vw,96px);align-items:end;min-height:0}.contact::after{display:none}.contact>img{position:relative;inset:auto;order:2;width:100%;height:auto;aspect-ratio:3/4;object-position:50% 30%;opacity:1;border-radius:4px}}
