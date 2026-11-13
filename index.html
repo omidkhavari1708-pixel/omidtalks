@@ -3,161 +3,130 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>امید | استراتژیست محتوا و برند شخصی</title>
-<meta name="description" content="امید، استراتژیست محتوا: محتوایی که ذهن آدما رو می‌گیره، نه فقط چشمشون رو.">
-<meta property="og:title" content="امید | استراتژیست محتوا و برند شخصی">
-<meta property="og:description" content="محتوایی که ذهن آدما رو می‌گیره، نه فقط چشمشون رو.">
-<meta property="og:image" content="https://omidkhavari1708-pixel.github.io/omidtalks/img/og.jpg">
+<title>امید خاوری | ایجنت هوش مصنوعی، سایت شخصی، برند شخصی</title>
+<meta name="description" content="امید خاوری، ۱۹ ساله. با هوش مصنوعی ایجنت، سایت شخصی و موشن می‌سازه و بیزینس خودشو جلوی چشم همه می‌سازه.">
+<meta property="og:title" content="امید خاوری">
+<meta property="og:description" content="ایجنت هوش مصنوعی، سایت شخصی، موشن و استراتژی محتوا.">
+<meta property="og:image" content="https://omidkhavari1708-pixel.github.io/omidtalks/img/v2/og.jpg">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#0e0e0e">
-<meta name="title-en" content="Omid | Content Strategist &amp; Personal Brand">
-<link rel="preload" href="img/hero.webp" as="image">
-<link rel="preload" href="fonts/nimkat.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/site.css">
+<meta name="theme-color" content="#d8d0d2">
+<link rel="preload" href="img/v2/hero.webp" as="image">
+<link rel="preload" href="fonts/pinar-extrabold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/pinar-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/v2.css">
+<script>(()=>{const r=document.documentElement;r.classList.add('js');let t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';r.dataset.theme=t})()</script>
 </head>
 <body>
 
+<nav class="nav" aria-label="منو" data-en-aria="Menu">
+  <a class="logo" href="#top" data-en="Omid">امید</a>
+  <div class="links">
+    <a href="#work" data-en="Work">کارها</a>
+    <a href="#about" data-en="About">درباره</a>
+    <a href="#contact" data-en="Contact">تماس</a>
+  </div>
+  <button class="theme" type="button" aria-label="حالت تاریک" data-en-aria="Dark mode"><span aria-hidden="true">◐</span></button>
+  <button class="lang" type="button" aria-label="English" data-en-aria="فارسی">EN</button>
+</nav>
+
 <header class="hero" id="top">
-  <img src="img/hero.webp" alt="" width="2000" height="1126" fetchpriority="high">
-  <h1 class="name" data-en="Omid">امید</h1>
-  <img class="cut" src="img/hero-cut.webp" alt="پرتره‌ی امید" data-en-alt="Portrait of Omid" width="2000" height="1126">
-  <nav class="nav">
-    <a href="#top" data-en="© Omid · Content Strategist">© امید · استراتژیست محتوا</a>
-    <div class="links">
-      <a href="#dash" data-en="Dashboard">داشبورد</a>
-      <a href="#services" data-en="Services">خدمات</a>
-      <a href="#contact" data-en="Contact">تماس</a>
+  <picture class="hero-img">
+    <source media="(max-width: 760px)" srcset="img/v2/hero-sm.webp">
+    <img src="img/v2/hero.webp" alt="امید پشت سیستم" data-en-alt="Omid at his desk" width="1672" height="941" fetchpriority="high">
+  </picture>
+  <div class="hero-copy">
+    <h1 data-en="Omid Khavarei">امید خاوری</h1>
+    <p class="rot"><span data-en="I build">من</span> <span class="word" aria-live="polite">ایجنت هوش مصنوعی</span> <span data-en=".">می‌سازم.</span></p>
+    <p class="sub" data-en="Nineteen. I left my job to build my own business with AI, in front of everyone.">نوزده سالمه. از کارم اومدم بیرون که بیزینس خودمو با هوش مصنوعی بسازم؛ جلوی چشم همه.</p>
+    <div class="ctas">
+      <a class="btn solid" href="https://ig.me/m/itsomid1.ai" target="_blank" rel="noopener"><span data-en="Send a DM">دایرکت بده</span><i aria-hidden="true">←</i></a>
+      <a class="btn ghost" href="#work" data-en="See my work">کارهامو ببین</a>
     </div>
-    <button class="theme" type="button" aria-label="Light / dark" title="Light / dark"><span aria-hidden="true">◐</span></button>
-    <button class="lang" type="button" aria-label="English" data-en-aria="فارسی">EN</button>
-  </nav>
-  <p class="role"><span class="tag">// content strategist</span><span data-en="Content Strategist">استراتژیست محتوا</span><br><span data-en="&amp; Personal Brand">و برند شخصی</span></p>
-  <span class="scroll" aria-hidden="true">scroll ↓</span>
+  </div>
 </header>
 
 <main>
-<section class="intro" id="intro">
-  <div class="rv">
-    <span class="tag">// intro</span>
-    <p class="statement"><span data-en="AI made making things cheap. Feeds will be full of products. ">AI ساختن رو ارزون کرد و فیدها پر از محصول می‌شن. </span><em data-en="We capture minds, not just eyes. ">ما ذهن آدما رو می‌گیریم، نه فقط چشمشون رو. </em><span data-en="For people who want their name to mean something.">برای آدم‌هایی که می‌خوان اسمشون یه معنی داشته باشه.</span></p>
-    <p class="small" data-en="Social media is not a views game. It's a branding game. AI is only our tool; the thinking is ours. And we never say anything without proof.">سوشال مدیا بازی بازدید نیست؛ بازی برنده. AI فقط ابزار ماست، فکرش مال خودمونه. و هیچ حرفی رو بدون سند نمی‌زنیم.</p>
-    <a class="btn" href="rules.html"><span data-en="Read our rules">قانون‌هامون رو بخون</span><i aria-hidden="true">←</i></a>
+
+
+<section class="about" id="about">
+  <figure class="rv"><img src="img/v2/keys.webp" alt="دست‌های امید روی کیبورد" data-en-alt="Omid's hands on the keyboard" loading="lazy" width="1448" height="1086"></figure>
+  <div class="about-copy rv">
+    <span class="tag" data-en="// about">// درباره</span>
+    <p class="statement" data-en="Aban 1405: I left my job, built an AI agent, and sold zero. <em>The product was fine. Nobody knew me.</em>">آبان ۱۴۰۵ از کارم اومدم بیرون، یه ایجنت هوش مصنوعی ساختم و صفر فروختم. <em>محصول مشکلی نداشت. کسی منو نمی‌شناخت.</em></p>
+    <dl class="stats">
+      <div><dt class="num" data-to="19">۰</dt><dd data-en="years old">سالمه</dd></div>
+      <div><dt class="num" data-to="3260">۰</dt><dd data-en="followers on itsomid1.ai">دنبال‌کننده تو itsomid1.ai</dd></div>
+      <div><dt class="num" data-to="6">۰</dt><dd data-en="sites built">سایت ساختم</dd></div>
+      <div><dt class="num" data-to="13">۰</dt><dd data-en="open-source Persian tools">ابزار فارسی متن‌باز</dd></div>
+    </dl>
   </div>
-  <figure class="rv"><img src="img/intro.webp" alt="امید پشت لپ‌تاپ" data-en-alt="Omid at his laptop" loading="lazy" width="1600" height="900"></figure>
 </section>
 
-<section id="dash">
+<section class="work dark" id="work">
   <div class="head rv">
-    <div><span class="tag">// dashboard</span><h2 data-en="What's on my mind, in numbers and words">ذهن من، با عدد و کلمه</h2></div>
-    <span class="hint" data-en="drag →">← بکش</span>
+    <span class="tag" data-en="// what I can do">// کارهایی که می‌تونم بکنم</span>
+    <h2 data-en="Four things I build, with AI.">چهار چیزی که با هوش مصنوعی می‌سازم.</h2>
   </div>
-  <div class="rail" tabindex="0" aria-label="داشبورد" data-en-aria="Dashboard">
-    <article class="card">
-      <img src="img/notebook-v.webp" alt="" loading="lazy" width="1600" height="900">
-      <div class="body">
-        <h3><a href="rules.html" data-en="Rules">قانون‌ها ↗</a></h3>
-        <ul>
-          <li><b>01</b><span data-en="Understand the rule, then break it.">قانون رو بفهم، بعد بشکنش.</span></li>
-          <li><b>02</b><span data-en="Take the why, not the how.">چرا رو بردار، نه چطور رو.</span></li>
-          <li><b>03</b><span data-en="Don't become someone else's franchise.">شعبه‌ی یکی دیگه نشو.</span></li>
-          <li><b>04</b><span data-en="Attention is the currency of the future.">ارز آینده توجهه.</span></li>
-          <li><b>05</b><span data-en="It's a branding game, not a views game.">بازی برنده، نه بازی بازدید.</span></li>
-          <li><b>06</b><span data-en="No claim without proof.">حرف بی‌سند نمی‌زنیم.</span></li>
-        </ul>
+  <div class="bento">
+    <a class="tile t-paik rv" href="https://paikfa1omidkhavarei.github.io/" target="_blank" rel="noopener">
+      <img src="img/v2/paik.webp" alt="پیک روی گوشی" data-en-alt="Paik on a phone" loading="lazy" width="1122" height="1402">
+      <div class="cap"><b data-en="01">۰۱</b><h3 data-en="Paik">پیک</h3><p data-en="An agent that answers your Instagram DMs for you.">ایجنتی که دایرکت‌های اینستاگرامتو خودش جواب می‌ده.</p><i aria-hidden="true">↗</i></div>
+    </a>
+    <div class="tile t-site rv">
+      <div class="laptop" aria-label="نمونه‌ی سایت شخصی" data-en-aria="Personal site example">
+        <div class="lap-in">
+          <div class="scr"><img src="img/v2/sarina.webp" alt="" loading="lazy" width="1000" height="3132"></div>
+          <img class="lap-img" src="img/v2/laptop.webp" alt="" loading="lazy" width="1448" height="1086">
+        </div>
       </div>
-    </article>
-    <article class="card">
-      <img src="img/list-v.webp" alt="" loading="lazy" width="1600" height="900">
-      <div class="body">
-        <h3><a href="fired.html" data-en="Fired">اخراج‌ها ↗</a></h3>
-        <div class="count" data-count="2">0</div>
-        <p class="small" data-en="tasks fired and handed to AI so far">کار تا امروز اخراج شده و رفته دست AI</p>
-        <ul>
-          <li><b>→</b><span data-en="Answering comments by hand → Paik">جواب دستی به کامنت‌ها ← پیک</span></li>
-          <li><b>→</b><span data-en="Captions and weekly plans → 13 Persian tools">کپشن و برنامه‌ی هفته ← ۱۳ ابزار فارسی</span></li>
-        </ul>
-      </div>
-    </article>
-    <article class="card">
-      <img src="img/phone-v.webp" alt="" loading="lazy" width="1600" height="900">
-      <div class="body">
-        <h3><a href="built.html" data-en="Built">ساخته‌ها ↗</a></h3>
-        <ul>
-          <li><b>01</b><span data-en="Paik: comment-to-DM for Instagram">پیک: کامنت به دایرکت برای اینستاگرام</span></li>
-          <li><b>02</b><span data-en="An AI content page">پیج تولید محتوای AI</span></li>
-          <li><b>03</b><span data-en="13 free Persian Instagram tools">۱۳ ابزار رایگان فارسی برای اینستاگرام</span></li>
-        </ul>
-        <a class="more" href="https://paikfa1omidkhavarei.github.io" target="_blank" rel="noopener" data-en="See Paik ↗">پیک رو ببین ↗</a>
-      </div>
-    </article>
-    <article class="card">
-      <img src="img/english-v.webp" alt="" loading="lazy" width="1600" height="900">
-      <div class="body">
-        <h3 data-en="The path">مسیر</h3>
-        <p class="small" data-en="Learning English, building with AI, documenting every step on Instagram. Together.">انگلیسی یاد گرفتن، ساختن با AI، و مستند کردن هر قدمش تو اینستاگرام. با هم.</p>
-        <a class="more" href="https://instagram.com/itsomid1.ai" target="_blank" rel="noopener">@itsomid1.ai ↗</a>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section id="services">
-  <div class="head rv"><div><span class="tag">// services</span><h2 data-en="What we do">کاری که می‌کنیم</h2></div></div>
-  <div class="svc rv">
-    <div class="num">Ø1</div>
-    <div>
-      <h3><a href="consulting.html" data-en="Personal Brand Consulting">مشاوره‌ی برند شخصی ↗</a></h3>
-      <p data-en="One session that defines who you are, what you say, and why people should listen.">یه جلسه که مشخص می‌کنه کی هستی، چی می‌گی و چرا باید به حرفت گوش بدن.</p>
-      <ol><li data-en="Positioning and message">جایگاه و پیام<span>01</span></li><li data-en="Voice and story">لحن و داستان<span>02</span></li><li data-en="A 90-day path">مسیر ۹۰ روزه<span>03</span></li></ol>
+      <div class="cap"><b data-en="02">۰۲</b><h3 data-en="Personal site">سایت شخصی</h3><p data-en="A one-page site for a personal brand. On screen: one I built.">سایت یه‌صفحه‌ای برای برند شخصی. روی صفحه: یکی از کارهام.</p></div>
     </div>
-    <img src="img/consult-v.webp" alt="" loading="lazy" width="1600" height="900">
-  </div>
-  <div class="svc rv">
-    <div class="num">Ø2</div>
-    <div>
-      <h3><a href="strategy.html" data-en="Content Strategy &amp; Scripts">استراتژی محتوا و سناریو ↗</a></h3>
-      <p data-en="Content pillars, hooks and reel scripts written for your voice, not a template.">ستون‌های محتوا، هوک و سناریوی ریلز، برای صدای خودت، نه از روی قالب.</p>
-      <ol><li data-en="Content pillars">ستون‌های محتوا<span>01</span></li><li data-en="Hooks and reel scripts">هوک و سناریوی ریلز<span>02</span></li><li data-en="Weekly plan">برنامه‌ی هفتگی<span>03</span></li></ol>
+    <div class="tile t-motion rv">
+      <div class="motion" aria-hidden="true"><span></span><span></span><span></span><b data-en="motion">موشن</b></div>
+      <div class="cap"><b data-en="03">۰۳</b><h3 data-en="Motion">موشن</h3><p data-en="Motion and video for reels and product launches.">موشن و ویدیو برای ریلز و معرفی محصول.</p></div>
     </div>
-    <img src="img/strategy-v.webp" alt="" loading="lazy" width="1600" height="900">
-  </div>
-  <div class="svc rv">
-    <div class="num">Ø3</div>
-    <div>
-      <h3><a href="website.html" data-en="Website &amp; Bio Page">سایت و صفحه‌ی بیو ↗</a></h3>
-      <p data-en="A minimal, bilingual home for your brand that loads in Iran without a VPN.">یه خونه‌ی مینیمال و دوزبانه برای برندت که تو ایران بدون فیلترشکن باز می‌شه.</p>
-      <ol><li data-en="Minimal design">طراحی مینیمال<span>01</span></li><li data-en="Persian and English">فارسی و انگلیسی<span>02</span></li><li data-en="No VPN needed">بدون نیاز به فیلترشکن<span>03</span></li></ol>
+    <div class="tile t-strat rv">
+      <img src="img/v2/think.webp" alt="امید در حال فکر کردن" data-en-alt="Omid thinking" loading="lazy" width="1448" height="1086">
+      <div class="cap"><b data-en="04">۰۴</b><h3 data-en="Content strategy">استراتژی محتوا</h3><p data-en="What to say, to whom, and with which hook.">اینکه چی بگی، به کی، و با چه قلابی.</p></div>
     </div>
-    <img src="img/site-v.webp" alt="" loading="lazy" width="1600" height="900">
-  </div>
-  <div class="svc rv">
-    <div class="num">Ø4</div>
-    <div>
-      <h3><a href="paik.html" data-en="Paik Setup">راه‌اندازی پیک ↗</a></h3>
-      <p data-en="People comment one word, your link lands in their DMs. We set it up end to end.">یکی یه کلمه کامنت می‌کنه، لینکت تو دایرکتش می‌رسه. از صفر تا آخر راهش می‌ندازیم.</p>
-      <ol><li data-en="Comment to DM">کامنت به دایرکت<span>01</span></li><li data-en="Forms and leads">فرم و جمع کردن مشتری<span>02</span></li><li data-en="Sales bot">ربات فروش<span>03</span></li></ol>
-    </div>
-    <img src="img/paik-v.webp" alt="" loading="lazy" width="1600" height="900">
   </div>
 </section>
 
 <section class="contact" id="contact">
-  <img src="img/contact-v.webp" alt="" loading="lazy" width="900" height="1600">
-  <div class="in rv">
-    <span class="tag">// contact</span>
-    <h2 data-en="When it's time, we're here.">هر وقت وقتش شد، ما این‌جاییم.</h2>
-    <p class="small" data-en="We don't sell. We choose who we work with, and we work with few.">ما چیزی نمی‌فروشیم. انتخاب می‌کنیم با کی کار کنیم، و با آدمای کمی کار می‌کنیم.</p>
-    <div class="row">
-      <a class="btn solid" href="https://ig.me/m/itsomid1.ai" target="_blank" rel="noopener"><span data-en="Instagram DM">دایرکت اینستاگرام</span><i aria-hidden="true">←</i></a>
-      <a class="btn" id="tg" href="https://t.me/itsomid_ai" target="_blank" rel="noopener"><span data-en="Telegram">تلگرام</span><i aria-hidden="true">←</i></a>
-      <a class="btn" href="mailto:omidkhavarimarketer@gmail.com"><span data-en="Email">ایمیل</span><i aria-hidden="true">←</i></a>
+  <figure class="rv"><img src="img/v2/chair.webp" alt="امید روی صندلی" data-en-alt="Omid in a chair" loading="lazy" width="1402" height="1122"></figure>
+  <div class="card-wrap rv">
+    <span class="tag" data-en="// contact">// تماس</span>
+    <h2 data-en="Message me. I answer myself.">پیام بده. خودم جواب می‌دم.</h2>
+    <div class="pcard">
+      <div class="pc-top">
+        <span class="live"><i></i><span data-en="Open to work">آماده‌ی همکاری</span></span>
+        <span class="clock" dir="ltr">--:--</span>
+      </div>
+      <div class="pc-id">
+        <img src="img/v2/avatar.webp" alt="" width="240" height="240" loading="lazy">
+        <div><b data-en="Omid Khavarei">امید خاوری</b><span data-en="AI agents · sites · motion">ایجنت · سایت · موشن</span></div>
+      </div>
+      <div class="pc-btns">
+        <a href="https://ig.me/m/itsomid1.ai" target="_blank" rel="noopener"><span data-en="Instagram DM">دایرکت اینستاگرام</span></a>
+        <a href="https://t.me/itsomid_ai" target="_blank" rel="noopener"><span data-en="Telegram">تلگرام</span></a>
+        <button class="copy" type="button" data-mail="omidkhavarimarketer@gmail.com"><span data-en="Copy email">کپی ایمیل</span></button>
+      </div>
+      <p class="pc-now" data-en="Now building: Paik">الان دارم پیک رو می‌سازم</p>
     </div>
   </div>
 </section>
+
 </main>
 
-<footer><span data-en="© 2026 Omid · Content Strategist">© ۱۴۰۵ امید · استراتژیست محتوا</span><a href="mailto:omidkhavarimarketer@gmail.com">omidkhavarimarketer@gmail.com</a></footer>
+<footer class="foot">
+  <span data-en="© 1405 Omid Khavarei">© ۱۴۰۵ امید خاوری</span>
+  <span class="f-links">
+    <a href="https://instagram.com/itsomid1.ai" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://t.me/itsomid_ai" target="_blank" rel="noopener">Telegram</a>
+    <a href="mailto:omidkhavarimarketer@gmail.com">Email</a>
+  </span>
+</footer>
 
-<script src="js/site.js"></script>
+<script src="js/v2.js"></script>
 </body>
 </html>
